@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>desplo</title>
+    <link rel="stylesheet" href="css/desplo.css">
+  </head>
+  <body>
+    <div id="instructions">
+      <span>Enter a URL.</span>
+      <form id="getUrl">
+	<input type="url" id="url" name="url">
+	<input type="submit" value="Enter">
+      </form>
+      <span>Press and hold <strong>D</strong> to Desplo.</span>
+      <span><button id="clear" title="Clear the Desplo">Clear</button></span>
+    </div>
+    <div id="warp">
+      <div id="desploContainer"></div>
+      <iframe id="load"></iframe>
+    </div>
+    <script src="js/desplo.js"></script>
+  </body>
+</html>
