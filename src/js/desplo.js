@@ -3,6 +3,8 @@ var desploing = false;
 var desploAnim;
 var container = document.getElementById('desploContainer');
 var url = document.getElementById('url');
+var load = document.getElementById('load');
+
 var colors = [
     'red',
     'cyan',
